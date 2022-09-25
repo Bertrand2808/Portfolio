@@ -1,13 +1,16 @@
-/* ===================== basic Code ============ */
+
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
 }
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -93,4 +96,22 @@ a:hover{
   background-color: rgb(255, 255, 255);
   color: #07aaaafd;
   border-radius : 2px solid #07aaaafd;
+}
+
+/*===================== Progress Bar ====================*/
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+
+/* =================== Quality ======================*/
+.ex-me{
+  margin-top: 35px;
 }
