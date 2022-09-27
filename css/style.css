@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #ff704f;
 }
 
 @media (max-width: 991.98px) {
@@ -121,16 +121,33 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .blue{
-  background-color: #1c5ce6;
+  background-color: rgb(33, 57, 225);
   color: #ffffff;
 }
 .btn{
-  border: 2px solid rgb(29, 105, 247);
+  border: 2px solid rgb(33, 57, 225);
 } 
 .btn-white{
   background-color: #ffffff;
-  border:2px solid #ffffff;
+  border:2px solid #ff704f;
 }
+.btn-white:hover{
+  background-color: #ff704f;
+  border:2px solid #ff704f;
+}
+.btn-orange{
+  background-color: #ff704f
+  ;
+  border:2px solid rgb(33, 57, 225);
+}
+
+.btn-orange:hover{
+  background-color: #ffffff
+  ;
+  border:2px solid white;
+  }
+
+
 .btn-blue{
   border: 2.4px solid #ffffff;
   color: #ffffff;
@@ -340,12 +357,12 @@ h1,h2,h3,h4,h5,h6,p{
   left: 50%;
   top: 50%;
   text-align: left;
-  border: 5px solid rgb(29, 105, 247);
+  border: 5px solid rgb(33, 57, 225);
 }
 
 .popup-btn-close { 
 	position: absolute;
-    background-color: rgb(29, 105, 247);
+    background-color: rgb(33, 57, 225);
     color:white;
      top: -15px;
     right: -15px;
