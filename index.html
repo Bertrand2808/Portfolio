@@ -13,11 +13,11 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -25,6 +25,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_card.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -40,12 +41,13 @@
             <div class="navbar-nav m-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Page d'accueil</a>
                 <a href="#about" class="nav-item nav-link">A propos</a>
-                <a href="#parcours" class="nav-item nav-link">Parcours</a>
                 <a href="#skill" class="nav-item nav-link">Compétences</a>
+                <a href="#parcours" class="nav-item nav-link">Parcours</a>
                 <a href="#interet" class="nav-item nav-link">Intérêts</a>
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-menu d-none d-lg-block" style="background-color:#ff704f; color: #ffffff;">M'embaucher</a>
+            <a href="#contact" class="btn btn-menu d-none d-lg-block" style="background-color:#ff704f; color: #ffffff;">Entretien</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -60,11 +62,12 @@
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 4px #ffffff;">Bertrand RENAUDIN</h1>
                     <h3 class="text-white font-weight-normal mb-3">Alternant</h3>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Web Designer, Web Developer, FullStack Developer</div>
+                    <div class="typed-text d-none">Auto Didact, Self Made, Web Designer, Web Developer, FullStack Developer</div>
+                    <h3 class="text-white font-weight-normal mb-3"><br>Et pourquoi pas un nouveau marin dans la team ?</h3>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <a href="docs/CV RENAUDIN Bertrand.pdf" class="btn btn-white mr-4" target="_blank">Télécharger le CV</a>
 
-                        <a href="" class="btn btn-white d-none d-sm-block">A propos de moi</a>
+                        <a href="#about" class="btn btn-white d-none d-sm-block">A propos de moi</a>
                     </div>
                 </div>
                 <div class="col-lg-4 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
@@ -89,28 +92,29 @@
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Alternant Développeur FullStack</h3>
-                    <p>Bienvenue sur mon Portfolio ! Moi c'est Bertrand. J'ai eu 26 cette année et je suis à la recherche d'une alternance en développement. Passionné par ce domaine dans lequel je pourrais passer mes journées, comme l'enfant que j'étais devant sa PS2 ! aujourd'hui j'ai décidé de reprendre mes études c'est pour ça que je recherche aujourd'hui une entreprise, une équipe qui pourrait me prendre sur son <strong>BATEAU</strong> afin de continuer à m'épanouir et à apprendre.</p>
+                    <p>Prêt à embarquer avec moi ?</p>
+                    <p>Je suis Bertrand, 26 ans et toutes mes dents (enfin quelques unes me font des misères mais ça, c'est une autre histoire...). En grand passionné de développement informatique, comme pourrait l'être un marin avec son navire, j'ai décidé d'accoster sur la terre de l'alternance après plusieurs années à naviguer sur des mers pas assez hostiles à mon goût. Cette terre pour moi, c'est la plus belle et là où l'on y pêche les meilleurs poissons. Cette terre c'est celle de l'architecture des logiciels. Mais pour continuer à y vivre sereinement, j'ai besoin d'un nouvel équipage prêt à me faire avancer et à me voir embarquer avec eux sur leur bateau.</p>
+                    <p>Alors Pilot'in es-tu prêt à poser l'encre sur ma terre pour m'emmener voir de nouveaux horizons ?</p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Nom : <span class="text-secondary">Bertrand RENAUDIN</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Date de naissance : <span class="text-secondary">28 août 1996</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Diplôme en cours : <span class="text-secondary"></span>3ème Année en alternance Architecture des Logiciels de l'Ecole Supérieure de Génie
-                                Informatique (ESGI) </h6></div>
+                        <div class="col-sm-6 py-2"><h6>Diplôme en cours : <span class="text-secondary">3ème Année en alternance Architecture des Logiciels de l'Ecole Supérieure de Génie
+                                Informatique (ESGI) </span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Experience : <span class="text-secondary">Auto didacte</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Téléphone : <span class="text-secondary">+33674737251</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>E-mail : <span class="text-secondary">bertrand2808@icloud.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Adresse Postale : <span class="text-secondary">83 Impasse Georges Brassens 01360 LOYETTES</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Adresse Postale : <span class="text-secondary">83 Impasse Georges Brassens, 01360, LOYETTES</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Télétravail : <span class="text-secondary">Disponible</span></h6></div>
                     </div>
                 <!-- button -->
-                <a href="" class="btn btn-outline-primary btn-white mr-4 mb-5">Embaucher</a>
-                <a href="" class="btn btn-outline-primary btn-white mb-5">En apprendre plus</a>
+                <a href="#contact" class="btn btn-outline-primary btn-white mr-4 mb-5">Entretien</a>
             </div>
         </div>
     </div>
     <!-- About End -->
 
 
-    
+
     <!-- Skill Start -->
     <div class="container-fluid py-5" id="skill">
         <div class="container">
@@ -156,7 +160,17 @@
                             <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Photoshop</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="col-md-6">
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
@@ -194,6 +208,15 @@
                             <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SonyVegas</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -201,10 +224,8 @@
     <!-- Skill End -->
 
 
-
-
     <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
+    <div class="container-fluid py-5" id="parcours">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center mb-5">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Parcours</h1>
@@ -272,7 +293,7 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
+    <div class="container-fluid pt-5" id="interet">
         <div class="container">
             <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Intérêts</h1>
@@ -289,7 +310,7 @@
                     </div>
                     <p>Parfait mélange entre créativité et formalisme, le développement informatique est une matière riche et exponentielle.</p>
                 </div>
-            
+
                 <div class="service-box col-lg-3 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
                         <i class="fa fa-2x fa-solid fa-gamepad service-icon text-white mr-3" style="background-color:rgb(33, 57, 225);"></i>
@@ -333,7 +354,7 @@
     <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Galerie</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Mon Portfolio</h1>
             </div>
             <div class="row">
@@ -341,8 +362,8 @@
                     <ul class="list-inline mb-4" id="portfolio-flters">
                         <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Tout</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Développement</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Graphismes & autres</li>
                     </ul>
                 </div>
             </div>
@@ -357,7 +378,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -367,7 +388,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -387,7 +408,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -407,19 +428,99 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-7.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-7.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-8.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-8.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-9.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-9.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-10.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-10.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Portfolio End -->
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Me contacter</h1>
+            </div>
+<!-- partial:index.partial.html -->
+<div class="card" data-state="#about">
+    <div class="card-header">
+        <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
+        <img class="card-avatar" src="img/profile.png" alt="avatar" />
+        <h1 class="card-fullname">Bertrand RENAUDIN</h1>
+        <h2 class="card-jobtitle">Alternant Développeur</h2>
+    </div>
+    <div class="card-main">
+        <div class="card-section is-active">
+            <div class="card-content">
+                <div class="card-subtitle text-center">Coordonnées</div>
+                <p class="card-desc"><u>E-mail</u> : bertrand2808@icloud.com <br><br> <u>Téléphone</u> : 0674737251 <br><br> <u>Formation</u> : BACHELOR Architecture des Logiciels <br> <br> Déterminer à vous rencontrer !
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Merci !</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Merci !</h1>
+            </div>
+            <div class="row justify-content-center">
+                <img src="img/blog-2.jpg" alt="" class="img-fluid rounded w-50">
+            </div>
+            <div class="text-center align-items-center justify-content-center">
+                <p><br><u>Merci d'avoir pris le temps de me lire !</u></p>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
     <!-- Footer Start -->
+    <br> <br>
     <div class="container-fluid text-white mt-5 py-1 px-sm-1 px-md-5" style="background-color:rgb(33, 57, 225);">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/bertrand.renaudin.5"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/Bertrand2808"><i class="fab fa-github"></i></a>
                 <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/bertrand-renaudin/"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
                 <a id= "popup-trigger1" class="popup-trigger text-white">Privacy</a>
@@ -462,6 +563,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

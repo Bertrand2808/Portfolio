@@ -15,11 +15,11 @@
     $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
-            
+
             $('html, body').animate({
                 scrollTop: $(this.hash).offset().top - 45
             }, 1500, 'easeInOutExpo');
-            
+
             if ($(this).parents('.navbar-nav').length) {
                 $('.navbar-nav .active').removeClass('active');
                 $(this).closest('a').addClass('active');
@@ -88,8 +88,8 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
@@ -114,15 +114,15 @@
     });
 
     function popupOpenClose(popup) {
-	
+
         /* Add div inside popup for layout if one doesn't exist */
         if ($(".wrapper").length == 0){
             $(popup).wrapInner("<div class='wrapper'></div>");
         }
-        
+
         /* Open popup */
         $(popup).show();
-    
+
         /* Close popup if user clicks on background */
         $(popup).click(function(e) {
             if ( e.target == this ) {
@@ -131,7 +131,7 @@
                 }
             }
         });
-    
+
         /* Close popup and remove errors if user clicks on cancel or close buttons */
         $(popup).find(".popup-btn-close").on("click", function() {
             if ($(".formElementError").is(':visible')) {
@@ -140,7 +140,7 @@
             $(popup).hide();
         });
     }
-    
+
     $(document).ready(function () {
         $("#popup-trigger1").on("click", function() {
             popupOpenClose($(".popup"));
@@ -155,6 +155,24 @@
             popupOpenClose($(".popup"));
         });
     });
-    
 })(jQuery);
+const buttons = document.querySelectorAll(".card-buttons button");
+const sections = document.querySelectorAll(".card-section");
+const card = document.querySelector(".card");
 
+const handleButtonClick = (e) => {
+  const targetSection = e.target.getAttribute("data-section");
+  const section = document.querySelector(targetSection);
+  targetSection !== "#about"
+    ? card.classList.add("is-active")
+    : card.classList.remove("is-active");
+  card.setAttribute("data-state", targetSection);
+  sections.forEach((s) => s.classList.remove("is-active"));
+  buttons.forEach((b) => b.classList.remove("is-active"));
+  e.target.classList.add("is-active");
+  section.classList.add("is-active");
+};
+
+buttons.forEach((btn) => {
+  btn.addEventListener("click", handleButtonClick);
+});
