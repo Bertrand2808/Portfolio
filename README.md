@@ -1,4 +1,8 @@
 # Portfolio
+
+Répertoire terminé ! 
+
+
 This is my first Portfolio made in HTML / CSS / Javascript. 
 
 #Author
